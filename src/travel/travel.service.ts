@@ -12,7 +12,7 @@ export class TravelService {
   }
 
   findAll() {
-    return `This action returns all travel`;
+    return this.trips;
   }
 
   findOne(id: number) {
